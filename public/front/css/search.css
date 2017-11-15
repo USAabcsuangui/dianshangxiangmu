@@ -1,0 +1,30 @@
+
+.box{
+    padding: 10px;
+}
+.lt_history .title{
+    padding-bottom: 10px;
+    font-size: 14px;
+    color: #777;
+}
+.lt_history .centent{
+    display: block;
+    border: 1px dashed #ccc;
+}
+.lt_history .centent li{
+    border-bottom: 1px dashed #ccc;
+    line-height: 30px;
+    padding-left: 10px;
+}
+.lt_history .centent li a{
+    font-size: 13px;
+    width: 94%;
+    display: inline-block;
+}
+.lt_history .centent li span{
+    line-height: 30px;
+    height: 30px;
+}
+.lt_history .centent li:last-child{
+    border-bottom: none;
+}

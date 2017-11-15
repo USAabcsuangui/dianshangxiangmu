@@ -1,0 +1,26 @@
+
+
+
+.mui-table-view .mui-media a img{
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 10px;
+    float: left;
+}
+.mui-table-view .mui-media a span{
+    display: block;
+    float: left;
+    margin-top: 5px;
+    font-size: 12px;
+    color: #444;
+    margin-left: 10px;
+}
+.lt_logout .mui-block{
+    width: 90%;
+    margin: 20px auto;
+}
+.userinfo p{
+    color: #000;
+    margin-left: 65px;
+    font-size: 20px;
+}

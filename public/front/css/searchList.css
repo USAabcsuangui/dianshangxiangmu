@@ -1,0 +1,46 @@
+.lt_meun{
+    padding: 0px 10px;
+    background-color: #eeeeee;
+    line-height: 30px;
+    height: 30px;
+}
+.lt_meun a{
+    display: inline-block;
+    width: 25%;
+    color: #777777;
+    font-size: 12px;
+    text-align: center;
+    float: left;
+}
+.lt_meun a.now{
+    color: darkorange;
+}
+.conten_box{
+    width: 30px;
+    height: 10px;
+    background-color: #666;
+    margin: 15px auto;
+
+}
+.loding{
+    width: 40px;
+    z-index: 100;
+    height: 40px;
+    border-right: 5px solid #000;
+    border-left: 5px solid #000;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 280px;
+    animation: donghua 0.15s infinite;
+}
+/*动画*/
+@keyframes donghua {
+    from{
+        transform: translate(-50%) rotate(0deg);
+    }
+    to{
+        transform: translate(-50%) rotate(360deg);
+    }
+}

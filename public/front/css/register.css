@@ -1,0 +1,36 @@
+.lt_content{
+    padding: 10px;
+}
+.lt_content .getCode input{
+    width: 65%;
+}
+.lt_content .mui-input-row .mui-btn {
+    line-height: 1.1;
+    width: 32%;
+    height: 40px;
+    padding: 10px 20px;
+}
+.lt_content .register button{
+    width: 95%;
+    height: 40px;
+}
+.lt_content .register_text{
+    margin-top: 20px;
+    line-height: 40px;
+}
+.lt_content .register_text span.left{
+    font-size: 12px;
+}
+.lt_content .register_text span.right{
+    background-color: #007aff;
+    display: block;
+    width: 25%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.lt_content .register_text span.right a{
+    color: #fff;
+}

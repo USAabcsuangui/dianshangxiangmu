@@ -1,0 +1,87 @@
+.lt_Calculation_details{
+    height: 30px;
+    position: absolute;
+    line-height: 30px;
+    bottom: 0;
+    background-color: #eeeeee;
+    width: 100%;
+    color: red;
+    font-weight: 900;
+    font-size: 12px;
+    border-top: 1px solid #ccc;
+    padding-left: 10px;
+    z-index: 1000;
+}
+
+.mui-scroll-wrapper{
+    padding-bottom: 30px;
+}
+
+.lt_Calculation_details .mui-pull-right{
+    width: 80px;
+    height: 100%;
+    background-color: red;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    line-height: 30px;
+
+}
+
+.img_shangpin img{
+    width: 80px;
+    height: 80px;
+
+}
+.headline{
+    overflow: hidden;
+    padding-left: 10px;
+}
+.mui-table-view li{
+    display: block;
+    padding: 10px;
+    position: relative;
+}
+.headline p{
+    font-size: 15px;
+    color: #000;
+    font-weight: 500;
+}
+.headline .price{
+    font-size: 16px;
+    color: red;
+    font-weight: 400;
+}
+.headline .price span:nth-child(2){
+    font-size: 13px;
+    color: #777;
+    margin-left: 10px;
+}
+.headline .price span:last-child{
+    font-size: 13px;
+    color: #333;
+    right: 10px;
+}
+.headline p:last-child{
+    font-weight: 400;
+    font-size: 15px;
+}
+.mui-table-view li input{
+    display: inline-block;
+    position: absolute;
+    bottom: 0px;
+
+}
+ .lt_items span.size{
+     display: inline-block;
+    border: 1px solid #ccc;
+    line-height: 25px;
+    width: 25px;
+    font-size: 15px;
+    background-color: #eeeeee;
+    text-align: center;
+}
+span.now{
+    color: #fff;
+    background-color: red !important;
+}
